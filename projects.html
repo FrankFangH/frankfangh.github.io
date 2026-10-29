@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected robotics, perception, and computer vision projects by Haohan Fang." />
+    <title>Projects — Haohan Fang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css?v=17" /><script src="assets/script.js?v=17" defer></script>
+  </head>
+  <body data-page="projects">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header site-header-minimal"><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button><nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html" data-nav="home">Home</a><a href="projects.html" data-nav="projects">Projects</a><a class="nav-cta" href="assets/Haohan_Fang_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></nav></header>
+    <main id="main" class="inner-page">
+      <section class="page-intro section-shell reveal"><h1>Projects &amp; research.</h1><p>Work in multimodal robotic perception, motion planning, computer vision, and machine-learning data systems.</p></section>
+      <section class="section-shell project-grid">
+        <article class="case-card reveal"><figure class="case-image"><img src="assets/deepcofi-test-setup.png" alt="DeepCoFi dual soft-finger test setup with camera, microphone, actuators, and test object" /></figure><p class="project-type">AI4CE Lab · 2025–2026</p><h2>DeepCoFi</h2><p>A multimodal proprioception framework using dual ResNet-18 encoders and a two-stage FoldingNet decoder to reconstruct soft-finger geometry and contact deformation as 2,025-point 3D surfaces.</p><p class="case-result">Result: 1.51 mm Chamfer error and 47% lower contact error than a DeepSoRo-based baseline.</p></article>
+        <article class="case-card reveal"><figure class="case-image case-image--contain"><img src="assets/robot-arm-motion-planning-v2.png" alt="Simulated robot arm planning a collision-free motion between two obstacles" /></figure><p class="project-type">Python · PyBullet · 2026</p><h2>Robot Arm Motion Planning</h2><p>A 7-DOF manipulation simulation integrating forward kinematics, damped least-squares inverse kinematics, feedback control, and collision-aware configuration-space modeling.</p><p class="case-result">Result: 98% collision-free planning success across 100 randomized start-goal queries.</p></article>
+        <article class="case-card reveal"><figure class="case-image"><img src="assets/geometric-visual-perception-panorama.png" alt="Panoramic reconstruction of the Columbia University campus produced from multiple aligned images" /></figure><p class="project-type">Python · OpenCV · 2026</p><h2>Geometric Visual Perception</h2><p>A vision pipeline combining gradient-guided Hough voting, homography estimation, RANSAC outlier rejection, inverse perspective warping, and distance-weighted blending.</p><p class="case-result">Applications include line and circular-object detection, multi-view alignment, and panoramic reconstruction.</p></article>
+        <article class="case-card reveal"><a class="case-image case-image--contain case-image-link" href="https://www.petchapp.com/" target="_blank" rel="noopener" aria-label="Visit the Petch website"><img src="assets/petch-ml-platform.png" alt="Petch mobile app showing its map, pet personality quiz, and social explorer profiles" /></a><p class="project-type">Petch LLC · 2025</p><h2>ML Data Platform</h2><p>An end-to-end pipeline for ingesting video and sensor streams, segmenting recordings into training samples, removing corrupted frames, and exporting sharded datasets.</p><p class="case-result">Added dataset schemas and per-sample metadata for validation, traceability, and reproducible model training.</p></article>
+      </section>
+    </main>
+  </body>
+</html>
